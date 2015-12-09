@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@Author: Navjot Singh virk
+@Student Number: x13112406
+<?xml-stylesheet type="text/xsl" href="main.xsl"?>
+<?xml-stylesheet type="text/css" href="myStyle.css"?> -->
+<menuroot xmlns:b="http://www.w3schools.com/xml/" xmlns:l="http://www.w3schools.com" xmlns:d="http://www.w3schools.com/xml/xml_namespaces.asp">
+    
+    <!-- 
+1: menuroot is the root element of the document.
+2: We are using three namespaces b,l and d for breakfast, lunch and dinner menu respecteviely
+3: We have 3 menus, 1 menu for each breakfast-menu, lunch-menu and dinner-menu   
+    
+    -->
+    <b:breakfast-menu>
+        <!-- Start of Breakfast-menu -->  
+        
+        <b:breakfast-item category="cereal" id="1">
+            
+            <b:name>Cereal with soy milk beans on toast</b:name>
+            <b:calories>613</b:calories>
+            <b:carbohydrates>49.50</b:carbohydrates>
+            <b:fiber>42.30</b:fiber>
+            <b:option>
+                <b:portion no="1">serving</b:portion>
+                <b:portion no="2">2 servings</b:portion>
+            </b:option>
+            <b:image>images/breakfast/</b:image>
+        </b:breakfast-item>
+        
+        <b:breakfast-item category="cereal" id="2">
+            
+            <b:name>Bowl of Porridge</b:name>
+            <b:calories>250</b:calories>
+            <b:carbohydrates>29.50</b:carbohydrates>
+            <b:fiber>32.89</b:fiber>
+            <b:option>
+                <b:portion no="1">serving</b:portion>
+                <b:portion no="2">2 servings</b:portion>
+            </b:option>
+            <b:image>images/breakfast/porridge.jpg</b:image>
+        </b:breakfast-item>
+        
+        <b:breakfast-item category="oats" id="3">
+            
+            <b:name>Bran flakes &amp; porridge oats with fruit and seeds</b:name>
+            <b:calories>615</b:calories>
+            <b:carbohydrates>59.50</b:carbohydrates>
+            <b:fiber>32.21</b:fiber>
+            <b:option>
+                <b:portion no="1">serving</b:portion>
+                <b:portion no="2">2 servings</b:portion>
+            </b:option>
+            <b:image>images/breakfast/branflakes.jpg</b:image>
+        </b:breakfast-item>
+        
+        <b:breakfast-item category="roll" id="4">
+            
+            <b:name>Breakfast Roll with sausages, egg and Hasbrown</b:name>
+            <b:calories>515</b:calories>
+            <b:carbohydrates>61.50</b:carbohydrates>
+            <b:fiber>22.67</b:fiber>
+            <b:option>
+                <b:portion no="1">small roll</b:portion>
+                <b:portion no="2">full roll</b:portion>
+            </b:option>
+            <b:image>images/breakfast/broll.jpg</b:image>
+        </b:breakfast-item>
+        
+        <b:breakfast-item category="dairy" id="5">
+            
+            <b:name>Strawberry dairy smoothie</b:name>
+            <b:calories>153</b:calories>
+            <b:carbohydrates>1.50</b:carbohydrates>
+            <b:fiber>2.67</b:fiber>
+            <b:option>
+                <b:portion no="1">small glass</b:portion>
+                <b:portion no="2">glass</b:portion>
+            </b:option>
+            <b:image>images/breakfast/strawberry.jpg</b:image>
+        </b:breakfast-item>
+        
+        <b:breakfast-item category="biscuit" id="6">
+            
+            <b:name>Cadbury Dairy Milk Biscuits</b:name>
+            <b:calories>78</b:calories>
+            <b:carbohydrates>5.50</b:carbohydrates>
+            <b:fiber>4.00</b:fiber>
+            <b:option>
+                <b:portion no="1">biscuit</b:portion>
+                <b:portion no="2">2 biscuits</b:portion>
+            </b:option>
+            <b:image>images/breakfast/cadburys.jpg</b:image>
+        </b:breakfast-item>
+        
+        <b:breakfast-item category="dairy" id="7">
+            
+            <b:name>Boiled Egg</b:name>
+            <b:calories>155</b:calories>
+            <b:carbohydrates>1.10</b:carbohydrates>
+            <b:fiber>0</b:fiber>
+            <b:option>
+                <b:portion no="1">1 boiled egg</b:portion>
+                <b:portion no="2">2 boiled eggs</b:portion>
+            </b:option>
+            <b:image>images/breakfast/egg.jpg</b:image>
+        </b:breakfast-item>
+        
+        <b:breakfast-item category="fruits" id="8">
+            
+            <b:name>Banana</b:name>
+            <b:calories>89</b:calories>
+            <b:carbohydrates>23</b:carbohydrates>
+            <b:fiber>2.6</b:fiber>
+            <b:option>
+                <b:portion no="1">1 </b:portion>
+                <b:portion no="2">2 </b:portion>
+            </b:option>
+            <b:image>images/breakfast/banana.jpg</b:image>
+        </b:breakfast-item>
+        
+        <b:breakfast-item category="fruits" id="9">
+            
+            <b:name>Apple</b:name>
+            <b:calories>14</b:calories>
+            <b:carbohydrates>14</b:carbohydrates>
+            <b:fiber>2.4</b:fiber>
+            <b:option>
+                <b:portion no="1">1 </b:portion>
+                <b:portion no="2">2 </b:portion>
+            </b:option>
+            <b:image>images/breakfast/apple.jpg</b:image>
+        </b:breakfast-item>
+        
+        <b:breakfast-item category="dairy" id="10">
+            
+            <b:name>Glass of milk</b:name>
+            <b:calories>42</b:calories>
+            <b:carbohydrates>5.0</b:carbohydrates>
+            <b:fiber>0</b:fiber>
+            <b:option>
+                <b:portion no="1">Glass 100g</b:portion>
+                <b:portion no="2">Glass 200g </b:portion>
+            </b:option>
+            <b:image>images/breakfast/milk.jpg</b:image>
+        </b:breakfast-item>
+        
+        <b:breakfast-item category="cereal" id="11">
+            
+            <b:name>Corn Flakes</b:name>
+            <b:calories>172</b:calories>
+            <b:carbohydrates>5.0</b:carbohydrates>
+            <b:fiber>1.0</b:fiber>
+            <b:option>
+                <b:portion no="1">30g Bowl + 125ml Semi Skimmed Milk</b:portion>
+                <b:portion no="2">60g Bowl + 250ml Semi Skimmed Milk</b:portion>
+            </b:option>
+            <b:image>images/breakfast/cornflakes.jpg</b:image>
+        </b:breakfast-item>
+    </b:breakfast-menu>
+    <!-- End of Breakfast-menu -->
+
+
+    <!-- Start of Lunch-menu -->
+    <l:lunch-menu>
+        <l:lunch-item category="sandwich" id="12">
+            
+            <l:name>Herbed Cheese</l:name>
+            <l:calories>398</l:calories>
+            <l:carbohydrates>20.0</l:carbohydrates>
+            <l:fiber>32.0</l:fiber>
+            <l:option>
+                <l:portion no="1">100g</l:portion>
+                <l:portion no="2">200g</l:portion>
+            </l:option>
+            <b:image>images/lunch/herbedcheese.jpg</b:image>
+        </l:lunch-item> 
+        
+        <l:lunch-item category="sandwich" id="13">
+            
+            <l:name>Cheese</l:name>
+            <l:calories>368</l:calories>
+            <l:carbohydrates>27.0</l:carbohydrates>
+            <l:fiber>37.0</l:fiber>
+            <l:option>
+                <l:portion no="1">100g</l:portion>
+                <l:portion no="2">200g</l:portion>
+            </l:option>
+            <b:image>images/lunch/cheeses.jpg</b:image>
+        </l:lunch-item>
+        
+        <l:lunch-item category="salad" id="14">
+            
+            <l:name>Grilled Chicken Salad</l:name>
+            <l:calories>398</l:calories>
+            <l:carbohydrates>30.0</l:carbohydrates>
+            <l:fiber>52.0</l:fiber>
+            <l:option>
+                <l:portion no="1">100g</l:portion>
+                <l:portion no="2">200g</l:portion>
+            </l:option>
+            <b:image>images/lunch/salad.jpg</b:image>
+        </l:lunch-item>
+        
+        <l:lunch-item category="salad" id="15">
+            
+            <l:name>Thai Chicken Salad with Peanut Dressing</l:name>
+            <l:calories>408</l:calories>
+            <l:carbohydrates>28.0</l:carbohydrates>
+            <l:fiber>41.50</l:fiber>
+            <l:option>
+                <l:portion no="1">100g</l:portion>
+                <l:portion no="2">200g</l:portion>
+            </l:option>
+            <b:image>images/lunch/peanutchic.jpg</b:image>
+        </l:lunch-item>
+    
+    
+        <l:lunch-item category="sandwich" id="16">
+            
+            <l:name>Grilled Chicken and Cheese Sandwich</l:name>
+            <l:calories>395</l:calories>
+            <l:carbohydrates>25.0</l:carbohydrates>
+            <l:fiber>15.0</l:fiber>
+            <l:option>
+                <l:portion no="1">100g</l:portion>
+                <l:portion no="2">200g</l:portion>
+            </l:option>
+            <b:image>images/lunch/toastie.jpg</b:image>
+        </l:lunch-item>
+        
+        <l:lunch-item category="roll" id="17">
+            
+            <l:name>Chicken salad roll</l:name>
+            <l:calories>280</l:calories>
+            <l:carbohydrates>35.5</l:carbohydrates>
+            <l:fiber>27.50</l:fiber>
+            <l:option>
+                <l:portion no="1">roll</l:portion>
+                <l:portion no="2">2 rolls</l:portion>
+            </l:option>
+            <b:image>images/lunch/chickenroll.jpg</b:image>
+        </l:lunch-item>
+        
+        <l:lunch-item category="slice" id="18">
+            
+            <l:name>Denny ham and chicken slice</l:name>
+            <l:calories>45</l:calories>
+            <l:carbohydrates>3.5</l:carbohydrates>
+            <l:fiber>2.50</l:fiber>
+            <l:option>
+                <l:portion no="1">slice</l:portion>
+                <l:portion no="2">2 slices</l:portion>
+            </l:option>
+            <b:image>images/lunch/hamslice.jpg</b:image>
+        </l:lunch-item>
+        
+        <l:lunch-item category="serving" id="19">
+            
+            <l:name>Roast chicken and stuffing roll</l:name>
+            <l:calories>613</l:calories>
+            <l:carbohydrates>44.5</l:carbohydrates>
+            <l:fiber>22.50</l:fiber>
+            <l:option>
+                <l:portion no="1">serving</l:portion>
+                <l:portion no="2">2 servings</l:portion>
+            </l:option>
+            <b:image>images/lunch/stuffing.jpg</b:image>
+        </l:lunch-item>
+        
+        <l:lunch-item category="roll" id="20">
+            
+            <l:name>Chicken and Bacon Roll</l:name>
+            <l:calories>395</l:calories>
+            <l:carbohydrates>34.5</l:carbohydrates>
+            <l:fiber>12.50</l:fiber>
+            <l:option>
+                <l:portion no="1">roll</l:portion>
+                <l:portion no="2">2 rolls</l:portion>
+            </l:option>
+            <b:image>images/lunch/supreme.jpg</b:image>
+        </l:lunch-item>
+        
+        <l:lunch-item category="roll" id="21">
+            
+            <l:name>Chicken fillet</l:name>
+            <l:calories>110</l:calories>
+            <l:carbohydrates>23.0</l:carbohydrates>
+            <l:fiber>12.50</l:fiber>
+            <l:option>
+                <l:portion no="1">small</l:portion>
+                <l:portion no="2">full roll</l:portion>
+            </l:option>
+            <b:image>images/lunch/fillet.jpg</b:image>
+        </l:lunch-item>
+        
+        <l:lunch-item category="chicken" id="22">
+            
+            <l:name>Chicken wing</l:name>
+            <l:calories>110</l:calories>
+            <l:carbohydrates>23.0</l:carbohydrates>
+            <l:fiber>12.50</l:fiber>
+            <l:option>
+                <l:portion no="1">serving</l:portion>
+                <l:portion no="2">2 servings</l:portion>
+            </l:option>
+            <b:image>images/lunch/wings.jpg</b:image>
+        </l:lunch-item>
+        <l:lunch-item category="sausage" id="23">
+            
+            <l:name>Pork and egg roll</l:name>
+            <l:calories>40</l:calories>
+            <l:carbohydrates>23.0</l:carbohydrates>
+            <l:fiber>12.50</l:fiber>
+            <l:option>
+                <l:portion no="1">sausage</l:portion>
+                <l:portion no="2">2 sausages</l:portion>
+            </l:option>
+            <b:image>images/lunch/eggroll.jpg</b:image>
+        </l:lunch-item>
+        
+        <l:lunch-item category="oats" id="24">
+            
+            <l:name>Quaker Rolled Oats  </l:name>
+            <l:calories>142</l:calories>
+            <l:carbohydrates>23.78</l:carbohydrates>
+            <l:fiber>22.50</l:fiber>
+            <l:option>
+                <l:portion no="1">serving</l:portion>
+                <l:portion no="2">2 servings</l:portion>
+            </l:option>
+            <b:image>images/lunch/oats.jpg</b:image>
+        </l:lunch-item>
+        
+        <l:lunch-item category="oats" id="25">
+            
+            <l:name>Rolled Oats  </l:name>
+            <l:calories>122</l:calories>
+            <l:carbohydrates>23.00</l:carbohydrates>
+            <l:fiber>21.50</l:fiber>
+            <l:option>
+                <l:portion no="1">serving</l:portion>
+                <l:portion no="2">2 servings</l:portion>
+            </l:option>
+            <b:image>images/lunch/roats.jpg</b:image>
+        </l:lunch-item>
+    </l:lunch-menu>
+    <!-- End of Lunch-menu -->
+    
+    <!-- Start of Dinner-menu -->
+    <d:dinner-menu>
+	
+        <d:dinner-item category="cereal" id="26">
+            
+            <d:name>Cereal with soy milk &amp; beans on toast</d:name>
+            <d:calories>613</d:calories>
+            <d:carbohydrates>49.50</d:carbohydrates>
+            <d:fiber>42.30</d:fiber>
+            <d:option>
+                <d:portion no="1">serving</d:portion>
+                <d:portion no="2">2 servings</d:portion>
+            </d:option>
+            <b:image>images/dinner/ceral_and_soymilk.jpg</b:image>
+        </d:dinner-item>
+        
+        <d:dinner-item category="pasta" id="27">
+            
+            <d:name>Carbonara Pasta</d:name>
+            <d:calories>700</d:calories>
+            <d:carbohydrates>24</d:carbohydrates>
+            <d:fiber>9.30</d:fiber>
+            <d:option>
+                <d:portion no="1">serving</d:portion>
+                <d:portion no="2">2 servings</d:portion>
+            </d:option>
+            <b:image>images/dinner/carbonara.jpg</b:image>
+        </d:dinner-item>
+		
+        <d:dinner-item category="salmon" id="28">
+            
+            <d:name>Smoked Salmon</d:name>
+            <d:calories>190</d:calories>
+            <d:carbohydrates>7</d:carbohydrates>
+            <d:fiber>0</d:fiber>
+            <d:option>
+                <d:portion no="1">serving</d:portion>
+                <d:portion no="2">2 servings</d:portion>
+            </d:option>
+            <b:image>images/dinner/salmon.jpg</b:image>
+        </d:dinner-item>
+		
+        <d:dinner-item category="baked potato" id="29">
+            
+            <d:name>Baked potato &amp; Coleslaw</d:name>
+            <d:calories>478</d:calories>
+            <d:carbohydrates>63.47</d:carbohydrates>
+            <d:fiber>69.78</d:fiber>
+            <d:option>
+                <d:portion no="1">serving</d:portion>
+                <d:portion no="2">2 servings</d:portion>
+            </d:option>
+            <b:image>images/dinner/potato.jpg</b:image>
+        </d:dinner-item>
+		
+        <d:dinner-item category="Salad" id="30">
+            
+            <d:name>Hot Chicken salad</d:name>
+            <d:calories>417</d:calories>
+            <d:carbohydrates>2.78</d:carbohydrates>
+            <d:fiber>45.57</d:fiber>
+            <d:option>
+                <d:portion no="1">serving</d:portion>
+                <d:portion no="2">2 servings</d:portion>
+            </d:option>
+            <b:image>images/dinner/chickensalad.jpg</b:image>
+        </d:dinner-item>
+		
+        <d:dinner-item category="rice" id="31">
+            
+            <d:name>Boiled Rice &amp; Pinto Beans </d:name>
+            <d:calories>447</d:calories>
+            <d:carbohydrates>63.50</d:carbohydrates>
+            <d:fiber>42.30</d:fiber>
+            <d:option>
+                <d:portion no="1">serving</d:portion>
+                <d:portion no="2">2 servings</d:portion>
+            </d:option>
+            <b:image>images/dinner/rice.jpg</b:image>
+        </d:dinner-item>
+		
+		
+        <d:dinner-item category="risotto" id="32">
+            
+            <d:name>Creamy Tomato Risotto</d:name>
+            <d:calories>326</d:calories>
+            <d:carbohydrates>49.6</d:carbohydrates>
+            <d:fiber>42.30</d:fiber>
+            <d:option>
+                <d:portion no="1">serving</d:portion>
+                <d:portion no="2">2 servings</d:portion>
+            </d:option>
+            <b:image>images/dinner/risotto.jpg</b:image>
+        </d:dinner-item>
+		
+		
+        <d:dinner-item category="steak" id="33">
+            
+            <d:name>Seared Stake</d:name>
+            <d:calories>269</d:calories>
+            <d:carbohydrates>19</d:carbohydrates>
+            <d:fiber>9.30</d:fiber>
+            <d:option>
+                <d:portion no="1">serving</d:portion>
+                <d:portion no="2">2 servings</d:portion>
+            </d:option>
+            <b:image>images/dinner/steak.jpg</b:image>
+        </d:dinner-item>
+		
+        <d:dinner-item category="cod" id="34">
+            
+            <d:name>Spiced Cod</d:name>
+            <d:calories>613</d:calories>
+            <d:carbohydrates>49.50</d:carbohydrates>
+            <d:fiber>42.30</d:fiber>
+            <d:option>
+                <d:portion no="1">serving</d:portion>
+                <d:portion no="2">2 servings</d:portion>
+            </d:option>
+            <b:image>images/dinner/spicedcod.jpg</b:image>
+        </d:dinner-item>
+		
+        <d:dinner-item category="casserole" id="35">
+            
+            <d:name>Lentil Casserole</d:name>
+            <d:calories>232</d:calories>
+            <d:carbohydrates>30.03</d:carbohydrates>
+            <d:fiber>52.20</d:fiber>
+            <d:option>
+                <d:portion no="1">serving</d:portion>
+                <d:portion no="2">2 servings</d:portion>
+            </d:option>
+            <b:image>images/dinner/lentil.jpg</b:image>
+        </d:dinner-item>
+		
+        <d:dinner-item category="stew" id="36">
+            
+            <d:name>Beef Stew</d:name>
+            <d:calories>420</d:calories>
+            <d:carbohydrates>15.7</d:carbohydrates>
+            <d:fiber>24.6</d:fiber>
+            <d:option>
+                <d:portion no="1">serving</d:portion>
+                <d:portion no="2">2 servings</d:portion>
+            </d:option>
+            <b:image>images/dinner/stew.jpg</b:image>
+        </d:dinner-item>
+		
+        <d:dinner-item category="stirfry" id="37">
+            
+            <d:name>Chicken StirFry</d:name>
+            <d:calories>286</d:calories>
+            <d:carbohydrates>6.45</d:carbohydrates>
+            <d:fiber>68.78</d:fiber>
+            <d:option>
+                <d:portion no="1">serving</d:portion>
+                <d:portion no="2">2 servings</d:portion>
+            </d:option>
+            <b:image>images/dinner/stirfry.jpg</b:image>
+        </d:dinner-item>
+		
+        <d:dinner-item category="figs" id="38">
+            
+            <d:name>Almond Figs</d:name>
+            <d:calories>452</d:calories>
+            <d:carbohydrates>56.00</d:carbohydrates>
+            <d:fiber>8.70</d:fiber>
+            <d:option>
+                <d:portion no="1">serving</d:portion>
+                <d:portion no="2">2 servings</d:portion>
+            </d:option>
+            <b:image>images/dinner/figs.jpg</b:image>
+        </d:dinner-item>
+		
+        <d:dinner-item category="curry" id="39">
+            
+            <d:name>Chicken Curry</d:name>
+            <d:calories>160</d:calories>
+            <d:carbohydrates>38.54</d:carbohydrates>
+            <d:fiber>6.11</d:fiber>
+            <d:option>
+                <d:portion no="1">serving</d:portion>
+                <d:portion no="2">2 servings</d:portion>
+            </d:option>
+            <b:image>images/dinner/curry.jpg</b:image>
+        </d:dinner-item>
+		
+    </d:dinner-menu>
+    <!-- End of Dinner-menu -->
+    
+    
+    
+    
+</menuroot>
+<!-- END of Document @Navjot -->

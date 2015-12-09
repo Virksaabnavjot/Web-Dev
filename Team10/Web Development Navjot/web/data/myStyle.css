@@ -1,0 +1,73 @@
+/*Author: Navjot Singh Virk @ Student Number: Navjot Singh */ 
+
+#wrapper{
+    /*this id is to style the div with an id="wrapper" */
+    margin:0 auto;/*to margin */
+    width:1000px;/*to set width */
+    height:2500px;/*to set height  */
+    background-color:#E0E0E0;/*to set the background color of the div  */
+}
+.hardit{
+    /* this class is to handle the image size in the tables in the following pages */
+   width:200px;
+    height:100px;
+}
+
+#content{
+    /* to style the div called content */
+    
+    margin-left: 72px;
+    width:900px;
+    height:90%;
+    background-color:#E7E7E7;
+}
+
+#space{
+    margin-bottom: 30px;
+}
+#productions{
+    height: 100px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+
+}
+
+span{
+    /* span element can be used anytime for styling */
+    color:#00CC99;
+    font-family:aharoni;
+}
+
+body{
+    /* styling the body */
+    font-family:aharoni;
+    color:#383838;
+}
+
+p{
+   /* to change styles of paragraphs */
+    color:#383838;
+    font-size:20px;
+}
+
+h1{
+    /* to change heading styles */
+    font-family:aharoni;
+    color:#383838;
+}
+
+
+
+
+#resultDiv,#lunchResult,#dinnerResult{
+    background: black;
+    font-family: calabri;
+    color:white;
+    font-size: 40px;
+}
+
+
+
+

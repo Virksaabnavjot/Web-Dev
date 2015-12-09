@@ -1,0 +1,50 @@
+/* Author: Navjot Singh Virk @ Student Number: x13112406 */
+
+
+body {
+    /*This line is to set the background image of pages*/
+    /*background-image: url("../images/item.jpg");*/
+background-color: #030325;
+}
+
+a {
+    text-decoration: none; /*this line removes default underline from the link*/
+    color: #fdcf00;/*this set the text-color*/
+    float: left;/*this floats link to left side of the page*/
+    width: 15.8em;/*to set the width*/
+    height:1.5em;
+    padding: 0.2em 0.6em;/*The padding is to clears an area around the content of an element. */
+    border: 1px solid white;/*to set the right border to solid white*/
+    background-color: #030325;/* to set the background color of link*/
+    font-size: 50px;
+}
+
+a:hover {
+    background-color: #ec2426; /*to give an effect @ when mouse hovers the color of the link changes*/
+}  
+
+a:active {background-color: #63c6ae;
+}
+
+ul {
+    /*this code to style the unordered list*/
+    list-style-type: none;
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+li {
+    /*to display the list item inline*/
+    display: inline;
+}
+
+img {
+    /*to give an default size for images so they dont appear to big. 
+    which can be changed at anytime whereever needed.
+    width:200px;
+    height:100px; */
+    }
+
